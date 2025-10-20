@@ -1,0 +1,9 @@
+{
+  "best_score_cv": 0.7885066958515186,
+  "best_params": {
+    "C": 4.668911080604085,
+    "class_weight": null,
+    "penalty": "l1",
+    "tol": 2.7395284561734364e-06
+  }
+}
