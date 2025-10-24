@@ -2,7 +2,7 @@
 
 Continuation of [**Part 1**](https://github.com/norlingstax/ml-projects/tree/main/NLP/wiki_comments_p1) using modern ML tools:
 
-- **Embeddings + classical model**
+- **Embeddings + Logistic Regression**
 - **Fine-tuned Transformers**
 - **Prompt-based classification via Ollama**
 
@@ -33,8 +33,7 @@ models/
 
 outputs/
 ├── metrics/           # metrics JSON per run (unified)
-├── figures/           # ROC/PR/confusion plots
-└── experiments.csv    # one row per run (summary table)
+└── figures/           # ROC/PR/confusion plots
 
 scripts/
 ├── setup.sh           # create .venv, install deps
@@ -267,4 +266,3 @@ Part 2 focuses on **modern NLP methods** while maintaining reproducibility:
 * Unified metric outputs and plots
 
 All approaches share the same structure and output format for **easy comparison** and **clean experiment tracking**.
-```
